@@ -1,4 +1,4 @@
-MHTML-to-HTML-Decoding-in-C-
+MHTML to HTML Decoding in C#
 ============================
 
 MHTML (short for MIME HTML) is a web archive that stores a web page’s HTML and (normally remote) resources in one file. It is composed in a manner similar to an HTML email, using the content-type ‘multipart-related’. The data is split into parts and base64 encoded.
