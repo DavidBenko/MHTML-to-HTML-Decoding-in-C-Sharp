@@ -297,7 +297,7 @@ public class MHTMLParser
                 {
                     if (strArray[0].Contains("image"))
                     {
-                        body = body.Replace("cid:" + strArray[1], "data:" + strArray[0] + ";base64," + strArray[2]);
+                        body = body.Replace("cid:" + System.Environment.NewLine, "cid:").Replace("cid:" + strArray[1], "data:" + strArray[0] + ";base64," + strArray[2]);
                         this.log += "Overwriting HTML with image: " + strArray[1] + "\n";
                     }
                 }
